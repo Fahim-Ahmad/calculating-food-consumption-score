@@ -1,0 +1,37 @@
+---
+title: "description"
+output: html_document
+---
+
+
+<font size="-1">
+
+Hello! My name is Fahim Ahmad.
+
+I developed this R-Shinyapp to calculate the Food Consumption Score (FCS) for a single household.
+
+You can have the script from my [GitHub](https://github.com/Fahim-Ahmad/calculating-food-consumption-score) repository.
+
+***
+
+Steps to calculate the Food Consumption Score (FCS):
+
+1) Households are asked to recall the foods they consumed in the previous seven days.
+
+<font size="-2"> Each food item is given a score of 0 to 7, depending on the number of days it was consumed.</font>
+
+2) Food items are grouped into below categories:
+
+<font size="-2">(cereals and tubers, pulses, dairy products, meat, vegetables, fruits, oil, sugar, condiments.)</font>
+
+3) The frequencies of all the food items surveyed in each food group are summed.
+
+<font size="-2">Any summed food group frequency value over 7 is recoded as 7.</font>
+
+4) Each food group frequency is multiplied by its pre-defined weight
+
+<font size="-2">The weight reflects nutrient density of each food group.</font>
+
+5) the FCS is calculated by summing the scores from step 4 into one composite score.
+
+</font>
